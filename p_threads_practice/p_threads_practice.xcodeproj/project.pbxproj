@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEAE70D725E7998600B8A114 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEAE70D625E7998600B8A114 /* main.cpp */; };
+		CEAE70E125E79CD600B8A114 /* int_stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEAE70DF25E79CD600B8A114 /* int_stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CEAE70D325E7998600B8A114 /* p_threads_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = p_threads_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAE70D625E7998600B8A114 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEAE70DF25E79CD600B8A114 /* int_stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = int_stack.cpp; sourceTree = "<group>"; };
+		CEAE70E025E79CD600B8A114 /* int_stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = int_stack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CEAE70D625E7998600B8A114 /* main.cpp */,
+				CEAE70DF25E79CD600B8A114 /* int_stack.cpp */,
+				CEAE70E025E79CD600B8A114 /* int_stack.h */,
 			);
 			path = p_threads_practice;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAE70E125E79CD600B8A114 /* int_stack.cpp in Sources */,
 				CEAE70D725E7998600B8A114 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
